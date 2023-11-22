@@ -3,5 +3,13 @@
   "version": "1.0.0",
   "description": "Personal website of Sourav Das",
   "author": "Sourav Das",
-  "license": "ISC"
+  "license": "ISC",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "devDependencies": {
+    "parcel": "^2.10.3"
+  }
 }
