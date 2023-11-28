@@ -168,4 +168,19 @@ main {
   display: none;
 }
 
+.sourcecode {
+  text-align: center;
+  color: var(--color-light--1);
+  width: 50%;
+  margin-top: auto;
+  font-size: 1.3rem;
+  position: absolute;
+  bottom: 0;
+}
+
+.github-link:link, .github-link:visited {
+  color: var(--color-light--1);
+  transition: all .2s;
+}
+
 /*# sourceMappingURL=index.6271bed1.css.map */
